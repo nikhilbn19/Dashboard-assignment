@@ -1,63 +1,82 @@
 ## Dashboard UI
 
-  A modular React + Tailwind CSS dashboard project that supports:
+  - A modular React + Tailwind CSS dashboard project that supports:
 
-  Donut charts, multi-color donuts, progress bars.
+  - Donut charts, multi-color donuts, progress bars.
 
-  Widgets with add/remove functionality.
+  - Widgets with add/remove functionality.
 
-  Modal to add new widgets.
+  - Modal to add new widgets.
 
-  Search and filtering.
+  - Search and filtering.
 
-  Clean component-based folder structure.
+  - Clean component-based folder structure.
 
 ## Features
 
-  Dashboard Layout with category-based widgets.
+  - Dashboard Layout with category-based widgets.
 
-  Reusable Components: DonutChart, MultiColorDonut, ProgressBar, LegendItem.
+  - Reusable Components: DonutChart, MultiColorDonut, ProgressBar, LegendItem.
 
-  Widget System with add/remove using useReducer.
+  - Widget System with add/remove using useReducer.
 
-  Modal Support to add custom widgets.
+  - Modal Support to add custom widgets.
 
-  Responsive Grid Layout for widgets.
+  - Responsive Grid Layout for widgets.
 
   No Data Placeholder for empty widget states.
 
 ## Project Structure
   
 src/
+
 ├── data/
-│   └── dashboardData.js        # Initial dashboard data & reducer
+
+│   └── dashboardData.js        
+
 ├── components/
-│   ├── charts/                 # Chart components
+
+│   ├── charts/  
+
 │   │   ├── DonutChart.jsx
+
 │   │   ├── MultiColorDonut.jsx
+
 │   │   ├── ProgressBar.jsx
+
 │   │   └── LegendItem.jsx
+
 │   ├── common/
+
 │   │   └── NoDataPlaceholder.jsx
-│   ├── widgets/                # Widget components
+
+│   ├── widgets/    
+
 │   │   ├── WidgetCard.jsx
+
 │   │   └── AddWidgetButton.jsx
-│   ├── modals/                 # Modal components
+
+│   ├── modals/                
+
 │   │   └── AddWidgetModal.jsx
-│   ├── layout/                 # Layout (headers, navigation, etc.)
+
+│   ├── layout/        
+
 │   │   ├── Header.jsx
+
 │   │   └── DashboardHeader.jsx
-│   └── Dashboard.jsx           # Main dashboard component
+
+│   └── Dashboard.jsx          
 
 ## Tech Stack
 
-  React 18
+  - React 18
 
-  Vite (for fast bundling)
+  - Vite (for fast bundling)
 
-  Tailwind CSS (for styling)
+  - Tailwind CSS (for styling)
 
-  Lucide React (for icons)
+  - Lucide React (for icons)
 
 
 ## Installation & Setup
@@ -70,17 +89,17 @@ src/
 
 2) Install dependencies
 
-  npm install
+    npm install
 
 
 3) Run development server
 
-  npm run dev
+    npm run dev
 
 
 4) Build for production
 
-  npm run build
+    npm run build
 
 ## Screenshots
 
