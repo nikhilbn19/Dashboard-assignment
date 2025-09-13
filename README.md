@@ -24,49 +24,7 @@
 
   - Responsive Grid Layout for widgets.
 
-  No Data Placeholder for empty widget states.
-
-## Project Structure
-  
-src/
-
-├── data/
-
-│   └── dashboardData.js        
-
-├── components/
-
-│   ├── charts/  
-
-│   │   ├── DonutChart.jsx
-
-│   │   ├── MultiColorDonut.jsx
-
-│   │   ├── ProgressBar.jsx
-
-│   │   └── LegendItem.jsx
-
-│   ├── common/
-
-│   │   └── NoDataPlaceholder.jsx
-
-│   ├── widgets/    
-
-│   │   ├── WidgetCard.jsx
-
-│   │   └── AddWidgetButton.jsx
-
-│   ├── modals/                
-
-│   │   └── AddWidgetModal.jsx
-
-│   ├── layout/        
-
-│   │   ├── Header.jsx
-
-│   │   └── DashboardHeader.jsx
-
-│   └── Dashboard.jsx          
+  No Data Placeholder for empty widget states.        
 
 ## Tech Stack
 
