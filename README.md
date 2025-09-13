@@ -59,6 +59,9 @@
 
     npm run build
 
+## Live Demo
+[View deployed App on vercel](https://dashboard-assignment-rho-nine.vercel.app/)
+
 ## Screenshots
 
   <img width="1884" height="888" alt="image" src="https://github.com/user-attachments/assets/7394a04a-76fc-4232-b2fe-740853387110" />
