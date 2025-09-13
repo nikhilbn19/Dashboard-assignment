@@ -62,6 +62,35 @@
 ## Live Demo
 [View deployed App on vercel](https://dashboard-assignment-rho-nine.vercel.app/)
 
+## Project Structure
+
+src/
+├── data/
+│ └── dashboardData.js # Initial data and reducer
+
+├── components/
+│ ├── charts/ # Chart components
+│ │ ├── DonutChart.jsx
+│ │ ├── MultiColorDonut.jsx
+│ │ ├── ProgressBar.jsx
+│ │ └── LegendItem.jsx
+
+│ ├── common/
+│ │ └── NoDataPlaceholder.jsx
+
+│ ├── widgets/ # Widget components
+│ │ ├── WidgetCard.jsx
+│ │ └── AddWidgetButton.jsx
+
+│ ├── modals/
+│ │ └── AddWidgetModal.jsx
+
+│ ├── layout/
+│ │ ├── Header.jsx
+│ │ └── DashboardHeader.jsx
+
+│ └── Dashboard.jsx # Main component
+
 ## Screenshots
 
   <img width="1884" height="888" alt="image" src="https://github.com/user-attachments/assets/7394a04a-76fc-4232-b2fe-740853387110" />
