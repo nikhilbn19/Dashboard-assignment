@@ -64,32 +64,8 @@
 
 ## Project Structure
 
-src/
-├── data/
-│ └── dashboardData.js # Initial data and reducer
+  <img width="356" height="601" alt="image" src="https://github.com/user-attachments/assets/cb392bb2-bf14-4f53-b36f-9c73caa5412d" />
 
-├── components/
-│ ├── charts/ # Chart components
-│ │ ├── DonutChart.jsx
-│ │ ├── MultiColorDonut.jsx
-│ │ ├── ProgressBar.jsx
-│ │ └── LegendItem.jsx
-
-│ ├── common/
-│ │ └── NoDataPlaceholder.jsx
-
-│ ├── widgets/ # Widget components
-│ │ ├── WidgetCard.jsx
-│ │ └── AddWidgetButton.jsx
-
-│ ├── modals/
-│ │ └── AddWidgetModal.jsx
-
-│ ├── layout/
-│ │ ├── Header.jsx
-│ │ └── DashboardHeader.jsx
-
-│ └── Dashboard.jsx # Main component
 
 ## Screenshots
 
